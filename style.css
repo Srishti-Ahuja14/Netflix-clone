@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(assets/images/bg.jpg);
+    height: 70vh;
+    position: relative;
+}
+
+body{
+    background-color: black;
+}
+
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 62px;
+    position: relative;
+    top: 7px;
+}
+
+nav img{
+    position: relative;
+    z-index: 1;
+}
+
+nav button{
+    position: relative;
+    z-index: 1;
+}
+
+.hero{
+    font-family: "Martel Sans", serif;
+    height: calc(100% - 62px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    gap: 8px;
+    padding: 0 25px;
+    text-align: center;
+    gap: 15px;
+    
+}
+
+.hero> :first-child{
+    font-weight: 1000;
+    font-size: 40px;
+    line-height: 50px;
+    
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    
+}
+
+.seperation{
+    height: 4px;
+    background-color: rgb(58, 56, 56);
+}
+
+.btn{
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 3px;
+    border-radius: 7px;
+    font-weight: 400;
+    background-color: rgba(8, 8, 8, 0);
+    color: white;
+
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 7px 15px;
+}
+.main input{
+    padding: 20px 105px 20px 15px;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.023);
+    border: 1px solid rgb(166, 166, 166);
+    cursor: text;
+    color: white;
+    font-weight: 900;
+}
+.email{
+    height: 35px;
+    margin: 7px auto;    
+}
