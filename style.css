@@ -301,3 +301,47 @@ footer .footer-item{
     font-size: 14px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 1275px){
+    .first{
+        flex-wrap: wrap;
+    }
+    .footer{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .secImg img{
+        width: 305px;
+    }
+
+    .secImg video{
+        width: 305px;
+    }
+
+    .hero> :first-child{
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2){
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3){
+        font-size: 14px;
+    }
+
+    nav{
+        max-width: 90vw;
+    }
+
+    footer span{
+        margin-top: 65px;
+    }
+
+    .second2 .email{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
